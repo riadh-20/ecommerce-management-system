@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sing up</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+<header>
+    <div class="wrapper">
+       <form action="registreC.php" method="POST">
+         
+           <h1>Registration</h1>
+           <div class="input-box">
+
+             <div class="input-filed">
+                <input type="text" placeholder="nom" name="nom" required>
+                <i class='bx bxs-user'></i>
+             </div>
+             <div class="input-filed">
+                <input type="text" placeholder="prenom" name="prenom" required>
+                <i class='bx bxs-user'></i>
+             </div>
+             <div class="input-filed">
+                <input type="email" placeholder="Email" name="email" required>
+                <i class='bx bxs-envelope'></i>
+             </div>
+             <div class="input-filed">
+                <input type="text" placeholder=" Numero" name="numT" required>
+                <i class='bx bxs-phone'></i>
+             </div>
+             <div class="input-filed">
+                <input type="password" placeholder="mot de pass" name="pass" required>
+                <i class='bx bxs-lock-alt'></i>
+             </div>
+
+             <div class="input-filed">
+                <input type="password" placeholder=" confermer mot de pass" name="cpass" required>
+                <i class='bx bxs-lock-alt'></i>
+             </div>
+
+             <div class="input-filed">
+                <input type="text" placeholder=" adress" name="adress" required>
+                <i class='bx bxs-home'></i>
+             </div>
+
+
+
+             <div class="input-filed">
+                
+                 <select name="sex" >
+                   <option value="male">male</option>
+                   <option value="femele">femele</option>
+                 </select>
+                 
+              </div>
+              <div class="input-filed">
+                <input type="date" placeholder="birthday date" name="date_N" required>
+                
+             </div>
+                
+             <input type="submit" value="Register Now" class="btn" name="submit">
+             </div>
+             <label ><input type="checkbox">i hereby declare that the above information provided is true and correct</label>
+
+             
+           </div>
+
+        </form>
+
+    </div>
+   </header>
+</body>
+</html>
